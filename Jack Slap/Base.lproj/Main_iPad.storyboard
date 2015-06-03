@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="TPJSViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tnr-t2-IH1"/>
+                        <viewControllerLayoutGuide type="bottom" id="idW-Kg-xbZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ACX-EO-Tdo" userLabel="JackPicture" customClass="UIImageView">
+                                <rect key="frame" x="204" y="332" width="360" height="360"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" none="YES" notEnabled="YES"/>
+                                </accessibility>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jg2-JO-2jI">
+                                <rect key="frame" x="311" y="841" width="147" height="77"/>
+                                <color key="backgroundColor" white="0.90000000000000002" alpha="0.14999999999999999" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="P1 Ready">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="readyPress:" destination="BYZ-38-t0r" eventType="touchDown" id="uKK-o5-yKa"/>
+                                    <action selector="readyRelease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3rF-aP-v7H"/>
+                                    <action selector="readyRelease:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="Z18-rr-PAm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xRJ-gh-bIb">
+                                <rect key="frame" x="224" y="212" width="320" height="300"/>
+                                <color key="backgroundColor" white="0.90000000000000002" alpha="0.14999999999999999" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="P2 SLAP!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="slapPress:" destination="BYZ-38-t0r" eventType="touchDown" id="nXs-MO-bqx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXT-ZE-KZa">
+                                <rect key="frame" x="311" y="103" width="147" height="73"/>
+                                <color key="backgroundColor" white="0.89855155109489049" alpha="0.14999999999999999" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="P2 Ready">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="readyPress:" destination="BYZ-38-t0r" eventType="touchDown" id="cZR-Om-OpQ"/>
+                                    <action selector="readyRelease:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RnG-cD-Zct"/>
+                                    <action selector="readyRelease:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="VAQ-Qm-ruU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2qv-il-TMi" userLabel="P1 Score">
+                                <rect key="frame" x="50" y="712" width="100" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VDy-yM-Vn1" userLabel="P2 Score">
+                                <rect key="frame" x="50" y="212" width="100" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fau-E1-vdG">
+                                <rect key="frame" x="150" y="712" width="100" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ck-1v-tRv">
+                                <rect key="frame" x="150" y="212" width="100" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mlg-nc-gdX">
+                                <rect key="frame" x="602" y="487" width="50" height="50"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fgf-i3-ofJ"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="m0M-oJ-eBD">
+                                <rect key="frame" x="699" y="938" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Single Player" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9IE-zm-WoE" userLabel="label over single player switch">
+                                <rect key="frame" x="612" y="904" width="100" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Average:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfq-nn-jmq">
+                                <rect key="frame" x="602" y="602" width="120" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Average:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kI8-g6-AhO">
+                                <rect key="frame" x="602" y="302" width="120" height="120"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4d-Hw-Z08">
+                                <rect key="frame" x="224" y="512" width="320" height="300"/>
+                                <color key="backgroundColor" white="0.90000000000000002" alpha="0.14999999999999999" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="P1 SLAP!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="slapPress:" destination="BYZ-38-t0r" eventType="touchDown" id="jY0-vQ-eg7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="jackView" destination="ACX-EO-Tdo" id="M8s-4P-NtN"/>
+                        <outlet property="p1Average" destination="bfq-nn-jmq" id="Wrv-59-9b7"/>
+                        <outlet property="p1Ready" destination="jg2-JO-2jI" id="pdB-6x-NEM"/>
+                        <outlet property="p1Score" destination="2qv-il-TMi" id="Isd-Cd-bSU"/>
+                        <outlet property="p1Slap" destination="Y4d-Hw-Z08" id="hba-vI-GDx"/>
+                        <outlet property="p1Time" destination="fau-E1-vdG" id="fho-1y-7M6"/>
+                        <outlet property="p2Average" destination="kI8-g6-AhO" id="9ax-8f-yLH"/>
+                        <outlet property="p2Ready" destination="kXT-ZE-KZa" id="fQP-n9-DoD"/>
+                        <outlet property="p2Score" destination="VDy-yM-Vn1" id="gOM-sn-lUJ"/>
+                        <outlet property="p2Slap" destination="xRJ-gh-bIb" id="oeL-LJ-lxO"/>
+                        <outlet property="p2Time" destination="0ck-1v-tRv" id="eZg-ld-DAL"/>
+                        <outlet property="resetButton" destination="Mlg-nc-gdX" id="xpx-Ic-Bnf"/>
+                        <outlet property="singlePlayerLabel" destination="9IE-zm-WoE" id="CdS-Pe-Esp"/>
+                        <outlet property="singlePlayerSwitch" destination="m0M-oJ-eBD" id="DRJ-li-JyD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

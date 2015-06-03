@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB0136D818CCA6DF001253F2 /* jackGrassCrop.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136D718CCA6DF001253F2 /* jackGrassCrop.png */; };
+		FB0136E918CD1511001253F2 /* IMG_0008.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136DA18CD1511001253F2 /* IMG_0008.png */; };
+		FB0136EA18CD1511001253F2 /* IMG_0026.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136DB18CD1511001253F2 /* IMG_0026.png */; };
+		FB0136EB18CD1511001253F2 /* IMG_0335.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136DC18CD1511001253F2 /* IMG_0335.png */; };
+		FB0136EC18CD1511001253F2 /* IMG_0343.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136DD18CD1511001253F2 /* IMG_0343.png */; };
+		FB0136ED18CD1511001253F2 /* IMG_0805.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136DE18CD1511001253F2 /* IMG_0805.png */; };
+		FB0136EE18CD1511001253F2 /* IMG_0809.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136DF18CD1511001253F2 /* IMG_0809.png */; };
+		FB0136EF18CD1511001253F2 /* IMG_0823.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136E018CD1511001253F2 /* IMG_0823.png */; };
+		FB0136F018CD1511001253F2 /* IMG_9372.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136E118CD1511001253F2 /* IMG_9372.png */; };
+		FB0136F118CD1511001253F2 /* IMG_9386.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136E218CD1511001253F2 /* IMG_9386.png */; };
+		FB0136F218CD1511001253F2 /* IMG_9423.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136E318CD1511001253F2 /* IMG_9423.png */; };
+		FB0136F318CD1511001253F2 /* IMG_9560.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136E418CD1511001253F2 /* IMG_9560.png */; };
+		FB0136F418CD1511001253F2 /* IMG_9759.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136E518CD1511001253F2 /* IMG_9759.png */; };
+		FB0136F518CD1511001253F2 /* IMG_9942.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136E618CD1511001253F2 /* IMG_9942.png */; };
+		FB0136F618CD1511001253F2 /* IMG_9943.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136E718CD1511001253F2 /* IMG_9943.png */; };
+		FB0136F718CD1511001253F2 /* IMG_9959.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136E818CD1511001253F2 /* IMG_9959.png */; };
+		FB0136F918CD18C7001253F2 /* Default@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FB0136F818CD18C7001253F2 /* Default@2x~ipad.png */; };
+		FB2832F618DF12DF0040C686 /* 76version.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2832F518DF12DF0040C686 /* 76version.png */; };
+		FB84149218C1FAC60049ED98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB84149118C1FAC60049ED98 /* Foundation.framework */; };
+		FB84149418C1FAC60049ED98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB84149318C1FAC60049ED98 /* CoreGraphics.framework */; };
+		FB84149618C1FAC60049ED98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB84149518C1FAC60049ED98 /* UIKit.framework */; };
+		FB84149C18C1FAC60049ED98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB84149A18C1FAC60049ED98 /* InfoPlist.strings */; };
+		FB84149E18C1FAC60049ED98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB84149D18C1FAC60049ED98 /* main.m */; };
+		FB8414A218C1FAC60049ED98 /* TPJSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8414A118C1FAC60049ED98 /* TPJSAppDelegate.m */; };
+		FB8414A518C1FAC60049ED98 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8414A318C1FAC60049ED98 /* Main_iPhone.storyboard */; };
+		FB8414A818C1FAC60049ED98 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8414A618C1FAC60049ED98 /* Main_iPad.storyboard */; };
+		FB8414AB18C1FAC60049ED98 /* TPJSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8414AA18C1FAC60049ED98 /* TPJSViewController.m */; };
+		FB8414AD18C1FAC60049ED98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8414AC18C1FAC60049ED98 /* Images.xcassets */; };
+		FB8414B418C1FAC60049ED98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8414B318C1FAC60049ED98 /* XCTest.framework */; };
+		FB8414B518C1FAC60049ED98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB84149118C1FAC60049ED98 /* Foundation.framework */; };
+		FB8414B618C1FAC60049ED98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB84149518C1FAC60049ED98 /* UIKit.framework */; };
+		FB8414BE18C1FAC60049ED98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB8414BC18C1FAC60049ED98 /* InfoPlist.strings */; };
+		FB8414C018C1FAC60049ED98 /* Jack_SlapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8414BF18C1FAC60049ED98 /* Jack_SlapTests.m */; };
+		FBCB88E618D4EED100FE38D3 /* 120Version.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCB88E418D4EED100FE38D3 /* 120Version.png */; };
+		FBCB88E718D4EED100FE38D3 /* 152Version.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCB88E518D4EED100FE38D3 /* 152Version.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB8414B718C1FAC60049ED98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB84148618C1FAC60049ED98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB84148D18C1FAC60049ED98;
+			remoteInfo = "Jack Slap";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB0136D718CCA6DF001253F2 /* jackGrassCrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jackGrassCrop.png; sourceTree = "<group>"; };
+		FB0136DA18CD1511001253F2 /* IMG_0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0008.png; sourceTree = "<group>"; };
+		FB0136DB18CD1511001253F2 /* IMG_0026.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0026.png; sourceTree = "<group>"; };
+		FB0136DC18CD1511001253F2 /* IMG_0335.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0335.png; sourceTree = "<group>"; };
+		FB0136DD18CD1511001253F2 /* IMG_0343.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0343.png; sourceTree = "<group>"; };
+		FB0136DE18CD1511001253F2 /* IMG_0805.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0805.png; sourceTree = "<group>"; };
+		FB0136DF18CD1511001253F2 /* IMG_0809.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0809.png; sourceTree = "<group>"; };
+		FB0136E018CD1511001253F2 /* IMG_0823.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0823.png; sourceTree = "<group>"; };
+		FB0136E118CD1511001253F2 /* IMG_9372.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_9372.png; sourceTree = "<group>"; };
+		FB0136E218CD1511001253F2 /* IMG_9386.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_9386.png; sourceTree = "<group>"; };
+		FB0136E318CD1511001253F2 /* IMG_9423.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_9423.png; sourceTree = "<group>"; };
+		FB0136E418CD1511001253F2 /* IMG_9560.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_9560.png; sourceTree = "<group>"; };
+		FB0136E518CD1511001253F2 /* IMG_9759.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_9759.png; sourceTree = "<group>"; };
+		FB0136E618CD1511001253F2 /* IMG_9942.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_9942.png; sourceTree = "<group>"; };
+		FB0136E718CD1511001253F2 /* IMG_9943.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_9943.png; sourceTree = "<group>"; };
+		FB0136E818CD1511001253F2 /* IMG_9959.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_9959.png; sourceTree = "<group>"; };
+		FB0136F818CD18C7001253F2 /* Default@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~ipad.png"; sourceTree = "<group>"; };
+		FB2832F518DF12DF0040C686 /* 76version.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76version.png; sourceTree = "<group>"; };
+		FB84148E18C1FAC60049ED98 /* Jack Slap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jack Slap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB84149118C1FAC60049ED98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB84149318C1FAC60049ED98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB84149518C1FAC60049ED98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB84149918C1FAC60049ED98 /* Jack Slap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jack Slap-Info.plist"; sourceTree = "<group>"; };
+		FB84149B18C1FAC60049ED98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB84149D18C1FAC60049ED98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB84149F18C1FAC60049ED98 /* Jack Slap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jack Slap-Prefix.pch"; sourceTree = "<group>"; };
+		FB8414A018C1FAC60049ED98 /* TPJSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPJSAppDelegate.h; sourceTree = "<group>"; };
+		FB8414A118C1FAC60049ED98 /* TPJSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPJSAppDelegate.m; sourceTree = "<group>"; };
+		FB8414A418C1FAC60049ED98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FB8414A718C1FAC60049ED98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FB8414A918C1FAC60049ED98 /* TPJSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPJSViewController.h; sourceTree = "<group>"; };
+		FB8414AA18C1FAC60049ED98 /* TPJSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPJSViewController.m; sourceTree = "<group>"; };
+		FB8414AC18C1FAC60049ED98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB8414B218C1FAC60049ED98 /* Jack SlapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jack SlapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8414B318C1FAC60049ED98 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FB8414BB18C1FAC60049ED98 /* Jack SlapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jack SlapTests-Info.plist"; sourceTree = "<group>"; };
+		FB8414BD18C1FAC60049ED98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB8414BF18C1FAC60049ED98 /* Jack_SlapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jack_SlapTests.m; sourceTree = "<group>"; };
+		FBCB88E418D4EED100FE38D3 /* 120Version.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120Version.png; sourceTree = "<group>"; };
+		FBCB88E518D4EED100FE38D3 /* 152Version.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 152Version.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB84148B18C1FAC60049ED98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB84149418C1FAC60049ED98 /* CoreGraphics.framework in Frameworks */,
+				FB84149618C1FAC60049ED98 /* UIKit.framework in Frameworks */,
+				FB84149218C1FAC60049ED98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8414AF18C1FAC60049ED98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8414B418C1FAC60049ED98 /* XCTest.framework in Frameworks */,
+				FB8414B618C1FAC60049ED98 /* UIKit.framework in Frameworks */,
+				FB8414B518C1FAC60049ED98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB0136D918CD14DB001253F2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FBCB88E418D4EED100FE38D3 /* 120Version.png */,
+				FB2832F518DF12DF0040C686 /* 76version.png */,
+				FBCB88E518D4EED100FE38D3 /* 152Version.png */,
+				FB0136DA18CD1511001253F2 /* IMG_0008.png */,
+				FB0136D718CCA6DF001253F2 /* jackGrassCrop.png */,
+				FB0136DB18CD1511001253F2 /* IMG_0026.png */,
+				FB0136DC18CD1511001253F2 /* IMG_0335.png */,
+				FB0136DD18CD1511001253F2 /* IMG_0343.png */,
+				FB0136DE18CD1511001253F2 /* IMG_0805.png */,
+				FB0136DF18CD1511001253F2 /* IMG_0809.png */,
+				FB0136E018CD1511001253F2 /* IMG_0823.png */,
+				FB0136E118CD1511001253F2 /* IMG_9372.png */,
+				FB0136E218CD1511001253F2 /* IMG_9386.png */,
+				FB0136E318CD1511001253F2 /* IMG_9423.png */,
+				FB0136E418CD1511001253F2 /* IMG_9560.png */,
+				FB0136E518CD1511001253F2 /* IMG_9759.png */,
+				FB0136E618CD1511001253F2 /* IMG_9942.png */,
+				FB0136E718CD1511001253F2 /* IMG_9943.png */,
+				FB0136E818CD1511001253F2 /* IMG_9959.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		FB84148518C1FAC60049ED98 = {
+			isa = PBXGroup;
+			children = (
+				FB0136F818CD18C7001253F2 /* Default@2x~ipad.png */,
+				FB84149718C1FAC60049ED98 /* Jack Slap */,
+				FB8414B918C1FAC60049ED98 /* Jack SlapTests */,
+				FB84149018C1FAC60049ED98 /* Frameworks */,
+				FB84148F18C1FAC60049ED98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB84148F18C1FAC60049ED98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB84148E18C1FAC60049ED98 /* Jack Slap.app */,
+				FB8414B218C1FAC60049ED98 /* Jack SlapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB84149018C1FAC60049ED98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB84149118C1FAC60049ED98 /* Foundation.framework */,
+				FB84149318C1FAC60049ED98 /* CoreGraphics.framework */,
+				FB84149518C1FAC60049ED98 /* UIKit.framework */,
+				FB8414B318C1FAC60049ED98 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB84149718C1FAC60049ED98 /* Jack Slap */ = {
+			isa = PBXGroup;
+			children = (
+				FB0136D918CD14DB001253F2 /* images */,
+				FB8414A018C1FAC60049ED98 /* TPJSAppDelegate.h */,
+				FB8414A118C1FAC60049ED98 /* TPJSAppDelegate.m */,
+				FB8414A318C1FAC60049ED98 /* Main_iPhone.storyboard */,
+				FB8414A618C1FAC60049ED98 /* Main_iPad.storyboard */,
+				FB8414A918C1FAC60049ED98 /* TPJSViewController.h */,
+				FB8414AA18C1FAC60049ED98 /* TPJSViewController.m */,
+				FB8414AC18C1FAC60049ED98 /* Images.xcassets */,
+				FB84149818C1FAC60049ED98 /* Supporting Files */,
+			);
+			path = "Jack Slap";
+			sourceTree = "<group>";
+		};
+		FB84149818C1FAC60049ED98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB84149918C1FAC60049ED98 /* Jack Slap-Info.plist */,
+				FB84149A18C1FAC60049ED98 /* InfoPlist.strings */,
+				FB84149D18C1FAC60049ED98 /* main.m */,
+				FB84149F18C1FAC60049ED98 /* Jack Slap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB8414B918C1FAC60049ED98 /* Jack SlapTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB8414BF18C1FAC60049ED98 /* Jack_SlapTests.m */,
+				FB8414BA18C1FAC60049ED98 /* Supporting Files */,
+			);
+			path = "Jack SlapTests";
+			sourceTree = "<group>";
+		};
+		FB8414BA18C1FAC60049ED98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB8414BB18C1FAC60049ED98 /* Jack SlapTests-Info.plist */,
+				FB8414BC18C1FAC60049ED98 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB84148D18C1FAC60049ED98 /* Jack Slap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8414C318C1FAC60049ED98 /* Build configuration list for PBXNativeTarget "Jack Slap" */;
+			buildPhases = (
+				FB84148A18C1FAC60049ED98 /* Sources */,
+				FB84148B18C1FAC60049ED98 /* Frameworks */,
+				FB84148C18C1FAC60049ED98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jack Slap";
+			productName = "Jack Slap";
+			productReference = FB84148E18C1FAC60049ED98 /* Jack Slap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB8414B118C1FAC60049ED98 /* Jack SlapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8414C618C1FAC60049ED98 /* Build configuration list for PBXNativeTarget "Jack SlapTests" */;
+			buildPhases = (
+				FB8414AE18C1FAC60049ED98 /* Sources */,
+				FB8414AF18C1FAC60049ED98 /* Frameworks */,
+				FB8414B018C1FAC60049ED98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8414B818C1FAC60049ED98 /* PBXTargetDependency */,
+			);
+			name = "Jack SlapTests";
+			productName = "Jack SlapTests";
+			productReference = FB8414B218C1FAC60049ED98 /* Jack SlapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB84148618C1FAC60049ED98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TPJS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Christopher Stockbridge";
+				TargetAttributes = {
+					FB8414B118C1FAC60049ED98 = {
+						TestTargetID = FB84148D18C1FAC60049ED98;
+					};
+				};
+			};
+			buildConfigurationList = FB84148918C1FAC60049ED98 /* Build configuration list for PBXProject "Jack Slap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB84148518C1FAC60049ED98;
+			productRefGroup = FB84148F18C1FAC60049ED98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB84148D18C1FAC60049ED98 /* Jack Slap */,
+				FB8414B118C1FAC60049ED98 /* Jack SlapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB84148C18C1FAC60049ED98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8414A818C1FAC60049ED98 /* Main_iPad.storyboard in Resources */,
+				FB8414AD18C1FAC60049ED98 /* Images.xcassets in Resources */,
+				FBCB88E718D4EED100FE38D3 /* 152Version.png in Resources */,
+				FB2832F618DF12DF0040C686 /* 76version.png in Resources */,
+				FBCB88E618D4EED100FE38D3 /* 120Version.png in Resources */,
+				FB8414A518C1FAC60049ED98 /* Main_iPhone.storyboard in Resources */,
+				FB0136F118CD1511001253F2 /* IMG_9386.png in Resources */,
+				FB84149C18C1FAC60049ED98 /* InfoPlist.strings in Resources */,
+				FB0136D818CCA6DF001253F2 /* jackGrassCrop.png in Resources */,
+				FB0136EC18CD1511001253F2 /* IMG_0343.png in Resources */,
+				FB0136F618CD1511001253F2 /* IMG_9943.png in Resources */,
+				FB0136F418CD1511001253F2 /* IMG_9759.png in Resources */,
+				FB0136F918CD18C7001253F2 /* Default@2x~ipad.png in Resources */,
+				FB0136ED18CD1511001253F2 /* IMG_0805.png in Resources */,
+				FB0136F518CD1511001253F2 /* IMG_9942.png in Resources */,
+				FB0136E918CD1511001253F2 /* IMG_0008.png in Resources */,
+				FB0136F218CD1511001253F2 /* IMG_9423.png in Resources */,
+				FB0136EF18CD1511001253F2 /* IMG_0823.png in Resources */,
+				FB0136F018CD1511001253F2 /* IMG_9372.png in Resources */,
+				FB0136EE18CD1511001253F2 /* IMG_0809.png in Resources */,
+				FB0136EB18CD1511001253F2 /* IMG_0335.png in Resources */,
+				FB0136EA18CD1511001253F2 /* IMG_0026.png in Resources */,
+				FB0136F318CD1511001253F2 /* IMG_9560.png in Resources */,
+				FB0136F718CD1511001253F2 /* IMG_9959.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8414B018C1FAC60049ED98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8414BE18C1FAC60049ED98 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB84148A18C1FAC60049ED98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB84149E18C1FAC60049ED98 /* main.m in Sources */,
+				FB8414A218C1FAC60049ED98 /* TPJSAppDelegate.m in Sources */,
+				FB8414AB18C1FAC60049ED98 /* TPJSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8414AE18C1FAC60049ED98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8414C018C1FAC60049ED98 /* Jack_SlapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB8414B818C1FAC60049ED98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB84148D18C1FAC60049ED98 /* Jack Slap */;
+			targetProxy = FB8414B718C1FAC60049ED98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB84149A18C1FAC60049ED98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB84149B18C1FAC60049ED98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB8414A318C1FAC60049ED98 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8414A418C1FAC60049ED98 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FB8414A618C1FAC60049ED98 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8414A718C1FAC60049ED98 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FB8414BC18C1FAC60049ED98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8414BD18C1FAC60049ED98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB8414C118C1FAC60049ED98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB8414C218C1FAC60049ED98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB8414C418C1FAC60049ED98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jack Slap/Jack Slap-Prefix.pch";
+				INFOPLIST_FILE = "Jack Slap/Jack Slap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB8414C518C1FAC60049ED98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jack Slap/Jack Slap-Prefix.pch";
+				INFOPLIST_FILE = "Jack Slap/Jack Slap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FB8414C718C1FAC60049ED98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jack Slap.app/Jack Slap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jack Slap/Jack Slap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jack SlapTests/Jack SlapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FB8414C818C1FAC60049ED98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jack Slap.app/Jack Slap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jack Slap/Jack Slap-Prefix.pch";
+				INFOPLIST_FILE = "Jack SlapTests/Jack SlapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB84148918C1FAC60049ED98 /* Build configuration list for PBXProject "Jack Slap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8414C118C1FAC60049ED98 /* Debug */,
+				FB8414C218C1FAC60049ED98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8414C318C1FAC60049ED98 /* Build configuration list for PBXNativeTarget "Jack Slap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8414C418C1FAC60049ED98 /* Debug */,
+				FB8414C518C1FAC60049ED98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8414C618C1FAC60049ED98 /* Build configuration list for PBXNativeTarget "Jack SlapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8414C718C1FAC60049ED98 /* Debug */,
+				FB8414C818C1FAC60049ED98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB84148618C1FAC60049ED98 /* Project object */;
+}
